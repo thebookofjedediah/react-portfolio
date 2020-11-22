@@ -1,4 +1,57 @@
 .Landing-hero {
     min-height: 60vh;
-    background-color: blue;
+    background-color: #0a2636;
+    color: #ffffff;
+}
+
+.Landing-hero {
+    position: relative;
+}
+
+.Landing-hero-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.Landing-hero-content img {
+    display: inline-block;
+    width: 46%;
+}
+.Landing-heading {
+    display: inline-block;
+    width: 46%;
+}
+
+.Landing-hero-content h1 {
+    font-size: 4vh;
+}
+
+.Landing-hero-content p {
+    font-size: 2vh;
+}
+
+.Landing-avatar {
+    max-width: 215px;
+}
+
+@media screen and (min-width: 992px) {
+    .Landing-hero .row {
+        padding: 0 10%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .Landing-hero {
+        min-height: 50vh;
+    }
+    .Landing-hero-content img {
+        display: block;
+        width: 100%;
+    }
+    .Landing-heading {
+        display: block;
+        width: 100%;
+    }
 }

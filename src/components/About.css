@@ -1,0 +1,17 @@
+.About {
+    background-color: #e7e8ea;
+}
+.About-hero {
+    background-color: #0a2636;
+    padding: 20px 0;
+}
+
+.About-hero-img {
+    content:url("../img/AboutHero.jpg");
+}
+
+@media screen and (max-width: 768px) {
+    .About-hero-img {
+        content:url("../img/AboutHeroMobile.jpg");
+    }
+}
